@@ -1,0 +1,68 @@
+body{
+  padding: 5%;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.blocco{ /*Blocco principale*/
+  width: 60%;
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5%;
+  border-radius: 15px;
+}
+
+header{
+text-align: center;
+}
+
+.logo{
+  width: 20%;
+}
+
+.logo-text{
+  color: rgba(28,220,6,1);
+}
+
+.bottoni{
+  background-color:  rgba(28,220,6,1);
+  padding: 1%;
+  text-align: center;
+}
+
+h2{
+  display: inline;
+}
+
+.utente{
+  margin-top: 2%;
+}
+
+/* Barra di stato carica (gialla) */
+.carica1{
+  background-color: rgba(241,166,66,1); /*giallo*/
+  width:30%;
+}
+/* Barra di stato carica (verde) */
+.carica2{
+  background-color:  rgba(28,220,6,1);/*verde*/
+  width:50%;
+}
+
+/* Barra di stato carica (rossa) */
+.carica3{
+  background-color: rgba(176,45,50,1);/*rosso*/
+  width:10%;
+}
+
+.carica1, .carica2, .carica3{ /*valori in comune per le tre barre di carica*/
+  border-radius: 10px;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+/* Ho cercato di riprendere i colori originali con il colorimetro digitale */
